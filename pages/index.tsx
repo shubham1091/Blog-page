@@ -13,7 +13,7 @@ export default function Home({ posts }: Props) {
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>Medium Clone</title>
+        <title>Blogger</title>
         <link
           rel="icon"
           href="https://w7.pngwing.com/pngs/39/364/png-transparent-itachi-uchiha-madara-uchiha-sasuke-uchiha-obito-uchiha-uchiha-clan-naruto-manga-logo-cartoon-thumbnail.png"
