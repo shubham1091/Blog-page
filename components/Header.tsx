@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            src="/images/logo/medium-logo.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Medium_%28website%29_logo.svg"
             className="w-44 cursor-pointer object-contain"
           />
         </Link>

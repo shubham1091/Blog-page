@@ -14,7 +14,7 @@ export default function Home({ posts }: Props) {
     <div className="mx-auto max-w-7xl">
       <Head>
         <title>Medium Clone</title>
-        <link rel="icon" href="/images/logo/medium-1.svg" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <Header />
 
