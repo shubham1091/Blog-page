@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex items-center space-x-5">
         <Link href="/">
           <img
-            src="https://w7.pngwing.com/pngs/533/103/png-transparent-uchiha-clan-logo-hidan-fan-art-akatsuki-logo-naruto-television-manga-logo.png"
+            src="https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png"
             className="w-44 cursor-pointer object-contain"
           />
         </Link>
