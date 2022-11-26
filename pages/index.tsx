@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Header from '../components/Header';
-import { sanityClient, urlFor } from '../sanity';
-import { Post } from '../typing';
+import Head from "next/head";
+import Link from "next/link";
+import Header from "../components/Header";
+import { sanityClient, urlFor } from "../sanity";
+import { Post } from "../typing";
 
 interface Props {
   posts: [Post];
@@ -14,7 +14,10 @@ export default function Home({ posts }: Props) {
     <div className="mx-auto max-w-7xl">
       <Head>
         <title>Medium Clone</title>
-        <link rel="icon" href="favicon.ico" />
+        <link
+          rel="icon"
+          href="https://w7.pngwing.com/pngs/39/364/png-transparent-itachi-uchiha-madara-uchiha-sasuke-uchiha-obito-uchiha-uchiha-clan-naruto-manga-logo-cartoon-thumbnail.png"
+        />
       </Head>
       <Header />
 
@@ -23,7 +26,7 @@ export default function Home({ posts }: Props) {
           <h1 className="max-w-xl font-serif text-6xl">
             <span className="underline decoration-black decoration-4">
               Medium
-            </span>{' '}
+            </span>{" "}
             is a place to write, read and connect
           </h1>
           <h2>
