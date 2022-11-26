@@ -77,8 +77,8 @@ const Post = ({ post }: Props) => {
 
           <div className="mt-10">
             <PortableText
-              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET || "production"}
-              projectId={process.env.NEXT_PUBLIC_SANITY_PROJECTID || "jnillyzc"}
+              dataset={process.env.NEXT_PUBLIC_SANITY_DATASET }
+              projectId={process.env.NEXT_PUBLIC_SANITY_PROJECTID }
               content={post.body}
               serializers={{
                 h1: (props: any) => (
