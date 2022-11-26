@@ -25,7 +25,7 @@ export default function Home({ posts }: Props) {
         <div className="space-y-5 px-10">
           <h1 className="max-w-xl font-serif text-6xl">
             <span className="underline decoration-black decoration-4">
-              Medium
+              Blogger
             </span>{" "}
             is a place to write, read and connect
           </h1>

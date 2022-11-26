@@ -8,7 +8,7 @@ const Header = () => {
         <Link href="/">
           <img
             src="https://seeklogo.com/images/C/cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png"
-            className="w-44 cursor-pointer object-contain"
+            className="w-44 h-10 cursor-pointer object-contain"
           />
         </Link>
 
